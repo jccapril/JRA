@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		457985253316CC344B602BE9 /* libPods-JRA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4753644EE81DE55D8995C955 /* libPods-JRA.a */; };
+		8446D75B21CA131E00FA3751 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446D75A21CA131E00FA3751 /* AppDelegate.m */; };
+		8446D75E21CA131E00FA3751 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446D75D21CA131E00FA3751 /* ViewController.m */; };
+		8446D76321CA132000FA3751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8446D76221CA132000FA3751 /* Assets.xcassets */; };
+		8446D76921CA132000FA3751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446D76821CA132000FA3751 /* main.m */; };
+		8446D77121CA244A00FA3751 /* TestRACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446D77021CA244A00FA3751 /* TestRACSubjectViewController.m */; };
+		84C38D3E21D2392100784DC6 /* UITextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C38D3D21D2392100784DC6 /* UITextFieldViewController.m */; };
+		84C38D4121D23BA700784DC6 /* UIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C38D4021D23BA700784DC6 /* UIButtonViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D8C82A861163EA877747485 /* Pods-JRA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRA.release.xcconfig"; path = "Pods/Target Support Files/Pods-JRA/Pods-JRA.release.xcconfig"; sourceTree = "<group>"; };
+		4753644EE81DE55D8995C955 /* libPods-JRA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JRA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8446D75621CA131E00FA3751 /* JRA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8446D75921CA131E00FA3751 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8446D75A21CA131E00FA3751 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8446D75C21CA131E00FA3751 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8446D75D21CA131E00FA3751 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8446D76221CA132000FA3751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8446D76721CA132000FA3751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8446D76821CA132000FA3751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8446D76F21CA244A00FA3751 /* TestRACSubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRACSubjectViewController.h; sourceTree = "<group>"; };
+		8446D77021CA244A00FA3751 /* TestRACSubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACSubjectViewController.m; sourceTree = "<group>"; };
+		84C38D3C21D2392100784DC6 /* UITextFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextFieldViewController.h; sourceTree = "<group>"; };
+		84C38D3D21D2392100784DC6 /* UITextFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextFieldViewController.m; sourceTree = "<group>"; };
+		84C38D3F21D23BA700784DC6 /* UIButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIButtonViewController.h; sourceTree = "<group>"; };
+		84C38D4021D23BA700784DC6 /* UIButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonViewController.m; sourceTree = "<group>"; };
+		CAA4E6F54423C760B6CC3F25 /* Pods-JRA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JRA/Pods-JRA.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8446D75321CA131E00FA3751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457985253316CC344B602BE9 /* libPods-JRA.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		158CF1F7DB6CC14DF20AAA20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAA4E6F54423C760B6CC3F25 /* Pods-JRA.debug.xcconfig */,
+				3D8C82A861163EA877747485 /* Pods-JRA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8446D74D21CA131E00FA3751 = {
+			isa = PBXGroup;
+			children = (
+				8446D75821CA131E00FA3751 /* JRA */,
+				8446D75721CA131E00FA3751 /* Products */,
+				158CF1F7DB6CC14DF20AAA20 /* Pods */,
+				EB0EF53B95A5E96F5981D169 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8446D75721CA131E00FA3751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8446D75621CA131E00FA3751 /* JRA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8446D75821CA131E00FA3751 /* JRA */ = {
+			isa = PBXGroup;
+			children = (
+				8446D75921CA131E00FA3751 /* AppDelegate.h */,
+				8446D75A21CA131E00FA3751 /* AppDelegate.m */,
+				8446D75C21CA131E00FA3751 /* ViewController.h */,
+				8446D75D21CA131E00FA3751 /* ViewController.m */,
+				84C38D3C21D2392100784DC6 /* UITextFieldViewController.h */,
+				84C38D3D21D2392100784DC6 /* UITextFieldViewController.m */,
+				84C38D3F21D23BA700784DC6 /* UIButtonViewController.h */,
+				84C38D4021D23BA700784DC6 /* UIButtonViewController.m */,
+				8446D76F21CA244A00FA3751 /* TestRACSubjectViewController.h */,
+				8446D77021CA244A00FA3751 /* TestRACSubjectViewController.m */,
+				8446D76221CA132000FA3751 /* Assets.xcassets */,
+				8446D76721CA132000FA3751 /* Info.plist */,
+				8446D76821CA132000FA3751 /* main.m */,
+			);
+			path = JRA;
+			sourceTree = "<group>";
+		};
+		EB0EF53B95A5E96F5981D169 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4753644EE81DE55D8995C955 /* libPods-JRA.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8446D75521CA131E00FA3751 /* JRA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8446D76C21CA132000FA3751 /* Build configuration list for PBXNativeTarget "JRA" */;
+			buildPhases = (
+				48A2636FEF55B847E786F79E /* [CP] Check Pods Manifest.lock */,
+				8446D75221CA131E00FA3751 /* Sources */,
+				8446D75321CA131E00FA3751 /* Frameworks */,
+				8446D75421CA131E00FA3751 /* Resources */,
+				67D3252FF070CF172CF74CCD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRA;
+			productName = JRA;
+			productReference = 8446D75621CA131E00FA3751 /* JRA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8446D74E21CA131E00FA3751 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Jaba;
+				TargetAttributes = {
+					8446D75521CA131E00FA3751 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8446D75121CA131E00FA3751 /* Build configuration list for PBXProject "JRA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8446D74D21CA131E00FA3751;
+			productRefGroup = 8446D75721CA131E00FA3751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8446D75521CA131E00FA3751 /* JRA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8446D75421CA131E00FA3751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8446D76321CA132000FA3751 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48A2636FEF55B847E786F79E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JRA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D3252FF070CF172CF74CCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JRA/Pods-JRA-resources.sh",
+				"${PODS_ROOT}/HSSetTableViewController/HSSetTableViewController/HSSetTableViewController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HSSetTableViewController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRA/Pods-JRA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8446D75221CA131E00FA3751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8446D75E21CA131E00FA3751 /* ViewController.m in Sources */,
+				84C38D3E21D2392100784DC6 /* UITextFieldViewController.m in Sources */,
+				84C38D4121D23BA700784DC6 /* UIButtonViewController.m in Sources */,
+				8446D76921CA132000FA3751 /* main.m in Sources */,
+				8446D77121CA244A00FA3751 /* TestRACSubjectViewController.m in Sources */,
+				8446D75B21CA131E00FA3751 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8446D76A21CA132000FA3751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8446D76B21CA132000FA3751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8446D76D21CA132000FA3751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA4E6F54423C760B6CC3F25 /* Pods-JRA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JRA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ja.JRA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8446D76E21CA132000FA3751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8C82A861163EA877747485 /* Pods-JRA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JRA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ja.JRA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8446D75121CA131E00FA3751 /* Build configuration list for PBXProject "JRA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8446D76A21CA132000FA3751 /* Debug */,
+				8446D76B21CA132000FA3751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8446D76C21CA132000FA3751 /* Build configuration list for PBXNativeTarget "JRA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8446D76D21CA132000FA3751 /* Debug */,
+				8446D76E21CA132000FA3751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8446D74E21CA131E00FA3751 /* Project object */;
+}
