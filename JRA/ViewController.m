@@ -16,6 +16,10 @@
 
 @property (nonatomic, strong) NSArray *dataSource;
 
+/* 11.代替NSTimer计时器 */
+// 可以代替 NSTimer 使用
+@property (nonatomic, strong) RACDisposable *disposable;
+
 @end
 
 @implementation ViewController
@@ -82,6 +86,17 @@
     }];
     NSMutableArray *section5 = [NSMutableArray arrayWithObjects:RACButton, nil];
     [self.hs_dataArry addObject:section5];
+    
+    [self rac_demo_7];
+    HSTextCellModel *RACNotification = [[HSTextCellModel alloc] initWithTitle:@"7. 监听 Notification 通知事件" detailText:nil actionBlock:^(HSBaseCellModel *model) {
+        
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"rac_demo_7" object:nil];
+        
+    }];
+    NSMutableArray *section6 = [NSMutableArray arrayWithObjects:RACNotification, nil];
+    [self.hs_dataArry addObject:section6];
+    
+    [self rac_demo_10];
 
     
 }
@@ -193,9 +208,52 @@
 }
 
 
+/* 监听Notication通知事件 */
+// 可以省去在 -(void)dealloc{} 中清除通知和监听创建方法的步骤
+- (void)rac_demo_7 {
+    
+    [[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"rac_demo_7" object:nil] subscribeNext:^(NSNotification * _Nullable x) {
+        NSLog(@"rac_demo_7");
+    }];
+    
+}
 
 
+/* 9.代替Delegate方法 */
+// 可以省去监听以及设置 delegate 的步骤，下面表示只要 view 中执行了 btnClick 这个方法，就会发送信号执行回调
+- (void)rac_demo_8 {
+    
+    [[self rac_signalForSelector:@selector(rac_demo_7)] subscribeNext:^(RACTuple * _Nullable x) {
+        NSLog(@"rac_demo_7 执行了");
+    }];
+}
 
+
+/* 10.代替KVO监听 */
+// 可以代替KVO监听，下面表示把 view 的frame属性改变转换成信号，只要值改变就会发送信号
+- (void)rac_demo_9_0 {
+    [[self.view rac_valuesForKeyPath:@"frame" observer:self] subscribeNext:^(id  _Nullable x) {
+        NSLog(@"属性发生了改变：%@",x); //x 是监听属性的改变结果
+    }];
+}
+// 更简单的写法，利用RAC的宏
+- (void)rac_demo_9_1 {
+    [RACObserve(self.view, frame) subscribeNext:^(id  _Nullable x) {
+        NSLog(@"属性发生了改变：%@",x); //x 是监听属性的改变结果
+    }];
+}
+
+/* 11.代替NSTimer计时器 */
+// 可以代替 NSTimer 使用
+- (void)rac_demo_10 {
+    @weakify(self);
+    self.disposable = [[RACSignal interval:1.0 onScheduler:[RACScheduler mainThreadScheduler]] subscribeNext:^(NSDate * _Nullable x) {
+        NSLog(@"当前时间：%@",x);
+        /* 关闭计时器 */
+        @strongify(self);
+        [self.disposable dispose];
+    }];
+}
 
 
 @end

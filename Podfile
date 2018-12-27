@@ -8,5 +8,7 @@ target 'JRA' do
 
 pod 'HSSetTableViewController','~> 1.3.1'
 pod 'ReactiveObjC', '~> 3.1.0'
+pod 'AFNetworking', '~> 3.2.1'
+
 
 end

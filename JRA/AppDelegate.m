@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "RequestManager.h"
 @interface AppDelegate ()
 
 @end
@@ -28,6 +29,17 @@
     self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
+    
+    
+    RequestManager *requestManeger = [[RequestManager alloc] init];
+    [[requestManeger getFile:@"aa.plist" withParam:nil] subscribeNext:^(id  _Nullable x) {
+        
+        NSLog(@"%@",x);
+    }];
+    
+    [[requestManeger get:@"https://www.baidu.com" withParam:nil] subscribeNext:^(id  _Nullable x) {
+        NSLog(@"%@",x);
+    }];
     
     
     return YES;

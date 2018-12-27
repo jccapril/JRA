@@ -37,7 +37,7 @@
     }];
     
     
-    
+
     self.accountTextField = [[UITextField alloc] init];
     self.accountTextField.placeholder = @"账号";
     self.accountTextField.frame= CGRectMake(100, 150, 100, 30);

@@ -13,6 +13,8 @@
 		8446D76321CA132000FA3751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8446D76221CA132000FA3751 /* Assets.xcassets */; };
 		8446D76921CA132000FA3751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446D76821CA132000FA3751 /* main.m */; };
 		8446D77121CA244A00FA3751 /* TestRACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446D77021CA244A00FA3751 /* TestRACSubjectViewController.m */; };
+		847CAEE221D4BAFB002BE387 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CAEE121D4BAFB002BE387 /* RequestManager.m */; };
+		847CAEE421D4BCCA002BE387 /* aa.plist in Resources */ = {isa = PBXBuildFile; fileRef = 847CAEE321D4BCCA002BE387 /* aa.plist */; };
 		84C38D3E21D2392100784DC6 /* UITextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C38D3D21D2392100784DC6 /* UITextFieldViewController.m */; };
 		84C38D4121D23BA700784DC6 /* UIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C38D4021D23BA700784DC6 /* UIButtonViewController.m */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,9 @@
 		8446D76821CA132000FA3751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8446D76F21CA244A00FA3751 /* TestRACSubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRACSubjectViewController.h; sourceTree = "<group>"; };
 		8446D77021CA244A00FA3751 /* TestRACSubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACSubjectViewController.m; sourceTree = "<group>"; };
+		847CAEE021D4BAFB002BE387 /* RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		847CAEE121D4BAFB002BE387 /* RequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		847CAEE321D4BCCA002BE387 /* aa.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = aa.plist; sourceTree = "<group>"; };
 		84C38D3C21D2392100784DC6 /* UITextFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextFieldViewController.h; sourceTree = "<group>"; };
 		84C38D3D21D2392100784DC6 /* UITextFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextFieldViewController.m; sourceTree = "<group>"; };
 		84C38D3F21D23BA700784DC6 /* UIButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIButtonViewController.h; sourceTree = "<group>"; };
@@ -89,9 +94,12 @@
 				84C38D4021D23BA700784DC6 /* UIButtonViewController.m */,
 				8446D76F21CA244A00FA3751 /* TestRACSubjectViewController.h */,
 				8446D77021CA244A00FA3751 /* TestRACSubjectViewController.m */,
+				847CAEE021D4BAFB002BE387 /* RequestManager.h */,
+				847CAEE121D4BAFB002BE387 /* RequestManager.m */,
 				8446D76221CA132000FA3751 /* Assets.xcassets */,
 				8446D76721CA132000FA3751 /* Info.plist */,
 				8446D76821CA132000FA3751 /* main.m */,
+				847CAEE321D4BCCA002BE387 /* aa.plist */,
 			);
 			path = JRA;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847CAEE421D4BCCA002BE387 /* aa.plist in Resources */,
 				8446D76321CA132000FA3751 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +225,7 @@
 				8446D75E21CA131E00FA3751 /* ViewController.m in Sources */,
 				84C38D3E21D2392100784DC6 /* UITextFieldViewController.m in Sources */,
 				84C38D4121D23BA700784DC6 /* UIButtonViewController.m in Sources */,
+				847CAEE221D4BAFB002BE387 /* RequestManager.m in Sources */,
 				8446D76921CA132000FA3751 /* main.m in Sources */,
 				8446D77121CA244A00FA3751 /* TestRACSubjectViewController.m in Sources */,
 				8446D75B21CA131E00FA3751 /* AppDelegate.m in Sources */,
